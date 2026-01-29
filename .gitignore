@@ -1,0 +1,51 @@
+# Build directories
+build/
+cmake-build-*/
+dist/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.dylib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# CUDA
+*.ptx
+*.cubin
+
+# Test outputs
+.pytest_cache/
+test_kernels
+test_kernels.exe
+
+# OS files
+.DS_Store
+Thumbs.db
